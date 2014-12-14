@@ -1,3 +1,6 @@
+.pc/
+debian/patches/
+
 *.userprefs
 
 # use glob syntax

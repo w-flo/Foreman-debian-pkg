@@ -1,0 +1,5 @@
+Description: Patches for Debian packaging merged from git
+ This patch collects all the changes for this Debian package from the git
+ packaging repository. See https://github.com/w-flo/foreman-pkg
+Author: Possibly various authors. See git for details.
+

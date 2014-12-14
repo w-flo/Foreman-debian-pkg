@@ -1,0 +1,5 @@
+#!/usr/bin/dh-exec
+
+Foreman/bin/Release/Foreman.exe /usr/lib/Foreman/
+debian/foreman.sh => /usr/bin/foreman
+debian/foreman.desktop /usr/share/applications/

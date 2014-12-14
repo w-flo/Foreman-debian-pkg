@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+%:
+	dh $@ --with cli
+
+override_dh_auto_build:
+	xbuild Foreman.sln /p:Configuration=Release

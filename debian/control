@@ -1,0 +1,15 @@
+Source: foreman
+Section: games
+Priority: optional
+Maintainer: Florian Will <florian.will@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), dh-exec, cli-common-dev, libnlua-cil-dev
+Standards-Version: 3.9.5
+Homepage: https://github.com/w-flo/Foreman
+Vcs-Browser: https://github.com/w-flo/Foreman
+
+Package: foreman
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${cli:Depends}
+Description: Factorio factory optimization tool
+ Foreman generates flow charts helping to build factories that produce items
+ in a resource-efficient way in the Factorio game.
